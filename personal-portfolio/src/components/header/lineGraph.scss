@@ -1,0 +1,50 @@
+
+
+.lineWrapper {
+    // border:thin solid green;
+    position:relative;
+   
+    width: 100%;
+    padding-top: 50%;
+    // border:thin solid red;
+    border-bottom:2px solid black;
+    margin-bottom: 8em;
+
+          @media  (min-width: 1280px) {
+                display: none;
+            }
+
+
+
+    .heigh-ratio-box {
+        position:absolute;
+        height:100%;
+        top:0;
+        left:0;
+        display: flex;
+        align-items: baseline;
+        width:100%;
+
+
+
+
+        div {
+            border-left:2px solid black;
+            width:25%;
+        }
+
+        .line_1 {
+            height: 100%;
+        
+        
+        }
+
+        .line_2 {
+            height: 80%;
+        }
+
+        .line_3 {
+            height: 90%;
+        }
+    }
+}

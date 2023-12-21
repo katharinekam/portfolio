@@ -1,0 +1,16 @@
+.project {
+    width:100%;
+    height: fit-content;
+    min-height:100vh;
+    padding-top:1rem;
+
+    .project-wrapper{
+        height:100%;
+        @media  (min-width: 1280px) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+   
+}

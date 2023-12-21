@@ -1,0 +1,100 @@
+.navBar {
+
+    // width:calc(100vw - 1rem);
+    width:100%;
+    overflow: hidden;
+    // position: fixed;
+    left:0;
+    top:0;
+    padding-top: .5rem;
+
+
+    .button-bar {
+        text-align: right;
+        height:30px;
+         @media  (min-width: 1280px) {
+            display: none;
+
+        }
+
+        button {
+            background-color: none;
+            appearance: none;
+            border: none;
+            padding: 0;
+            background-color: transparent;
+            cursor: pointer;
+            border:black thin solid;
+            padding: .2rem;
+            border-radius:10%;
+
+            &:hover {
+                background-color:  rgb(17, 177, 155);
+                border:white solid thin;
+                color:white;
+            }
+        }
+    }
+
+
+    .drop-menu {
+       
+        z-index: 100;
+        border:thin black solid;
+  
+ 
+
+        ul {
+            li {
+                list-style-type: none;
+                a {
+              
+                    text-decoration: none;
+                    color: inherit; /* Optional: Preserve the default text color */
+                }
+                
+            }
+        }
+    }
+
+  
+
+    .desktop-menu {
+        display: none;
+        width:calc(100% - 0rem);
+        height:50px;
+
+     
+        @media  (min-width: 1280px) {
+            display: flex;
+        }
+
+        .greeting {
+            display:none;
+            width:40%;
+            margin-left: 0%;
+            @media  (min-width: 1280px) {
+                display: block;
+            }
+        }
+
+          ul {
+              display: flex;
+               width:60%;
+               margin-left:40%;
+               justify-content: space-around;
+              
+            li {
+                list-style-type: none;
+            
+                a {
+                    font-size: 1.2rem;
+                    text-decoration: none;
+                    color: inherit; /* Optional: Preserve the default text color */
+                }
+                
+            }
+        }
+    }
+
+}

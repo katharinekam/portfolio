@@ -1,0 +1,14 @@
+.aboutMe {
+    width:100%;
+    height: fit-content;
+    min-height:100vh;
+    padding-top:1rem;
+
+    p {
+        text-align: left;
+        @media  (min-width: 1280px) {
+            font-size: 2rem;
+        }
+
+    }
+}
